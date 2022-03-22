@@ -6,8 +6,9 @@
 trigger:
 - master
 
-pool:
-  vmImage: Default
+pool: 
+  name: 'Default'
+  vmImage: 'myagent'
 
 steps:
 - script: echo Hello, world!
